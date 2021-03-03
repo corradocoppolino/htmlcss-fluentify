@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .clearfix::after{
     content:"";
     display: table;
@@ -114,4 +118,26 @@ header{
     font-size: 300%;
     margin-bottom: 30px;
 }
+
+/* main sezione 1*/
+
+.m-container{
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px 0px;
+    line-height: 30px;
+}
+
+.m-container p{
+    color: grey;
+    font-size: 16px;
+}
+
+.m-container h3{
+    font-size: 20px;
+}
+
+/* sezione 2 */
 
