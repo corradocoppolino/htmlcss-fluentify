@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.half{
+    width: 50%;
+}
+
+/* header */
+
+header{
+    height: 550px;
+    background-color: #0c325a;
+}
+
+.h-container{
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+    min-width: 1400px;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 115% 100%;
+}
+
+.h-nav{
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+}
+
+.h-logo{
+    padding-top: 10px;
+    width: 15%;
+}
+
+.h-center{
+    width: 45%;
+}
+
+.h-right{
+    width: 40%;
+}
+
+.float-left{
+    float: left;
+}
+
+.menu-inline{
+    list-style: none;
+}
+
+.menu-inline li{
+    display: inline;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+.menu-inline li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+/* buttons */
+
+.btn{
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn.btn-blue{
+    border: 1px solid white;
+}
+
+.btn.btn-green{
+    border: 1px solid green;
+    background-color: green;
+}
+
+.btn.btn-large{
+    padding: 20px;
+}
+
+/* jumbotron */
+
+.jumbotron{
+    height: 470px;
+    position: relative;
+}
+
+.jumbo-text{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.jumbo-text h1{
+    color: white;
+    font-size: 300%;
+    margin-bottom: 30px;
+}
+
