@@ -243,15 +243,43 @@ footer{
     width: 60%;
 }
 
+.f-right .menu-inline li:first-child{
+    color: grey;
+}
+
 .container-select{
-    border-bottom: 1px solid rgb(182, 132, 132);
+    border-bottom: 1px solid grey;
     width: 50px;
 }
 
 .f-right li i{
     text-align: right;
+    
 }
 
 .container-select span{
     text-align: left;
+    margin-right:50px;
+}
+
+.container-select{
+    margin: 0 20px;
+    color: grey;
+}
+
+.square{
+    position: fixed;
+    height: 30px;
+    width: 50px;
+    bottom: 0;
+    right: 20%;
+    background-color: #7CBB06;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.square a{
+    text-decoration: none;
+    color: white;
 }
