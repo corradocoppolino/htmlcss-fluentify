@@ -315,3 +315,34 @@ header{
     text-align: center;
 }
 
+/* sezione 6 */
+
+.m-container6{
+    width: 50%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.green{
+    color:#7CBB06
+}
+
+.m-container6 h1{
+    margin:20px 0 10px 0;
+}
+
+.m-container6 .paragrafo1{
+    margin-top: 20px;
+    color: grey;
+}
+
+.m-container6 .paragrafo2{
+    color: grey;
+    font-size: 20px;
+    margin:20px 0;
+}
+
+.m-container6 a{
+    color: grey;
+}
+
